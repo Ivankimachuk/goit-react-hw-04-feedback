@@ -1,0 +1,32 @@
+.feedback-button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.good-button {
+  background-color: #4caf50; 
+  color: #ffffff;
+}
+
+.neutral-button {
+  background-color: #3498db; 
+  color: #ffffff;
+}
+
+.bad-button {
+  background-color: #f44336; 
+}
+
+.feedback-button:hover {
+  opacity: 0.9;
+}
+
+.feedback-button:active {
+  opacity: 0.8;
+}
+

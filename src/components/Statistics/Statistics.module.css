@@ -1,0 +1,27 @@
+.statisticsBlock {
+    padding-top: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.statistics {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.statisticsGood {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #4caf50;
+}
+.statisticsNeutral {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #3498db;
+}
+.statisticsBad {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #f44336;
+}
